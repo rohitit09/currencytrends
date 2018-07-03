@@ -7,7 +7,7 @@ var openNextURLInTab = function(){
     var url = 'https://www.xe.com/'
     console.log(url);
     chrome.tabs.update(null, {url: url});
-    setInterval(function() {injectTheScript();}, 600000); //runing every 10 min
+    setTimeout(function() {injectTheScript();}, 10000); //runing every 10 sec
 
 }
 
@@ -31,7 +31,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
     }, 7000);
   }else if(message.event == 'namesent'){
     console.log('JOB done');
-    // setTimeout(openNextURLInTab,1800000);
+    setTimeout(openNextURLInTab,10000);
     // openNextURLInTab();
   }
   else if(message.event == "pageblocked"){
