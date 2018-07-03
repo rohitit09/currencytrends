@@ -9,7 +9,7 @@
 #Run Application
 > **python3 application.py**
 
-#upload scraper directory as chrome extension in yur chrome browser
+#upload scraper directory as chrome extension in your chrome browser
 > **click on extension symbol** 
 
 > **it will start featching data from data source every 30min time interval**
