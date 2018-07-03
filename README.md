@@ -1,13 +1,12 @@
 # currencytrends
-python3.6
-pip3
-
+> **python3.6**
+> **pip3**
 
 #install requirnments
-	pip3 install -r requirnments.txt
+> **pip3 install -r requirnments.txt**
 
 #Run Application
-	python3 application.py
+> **python3 application.py**
 
 #upload scraper directory as chrome extension in yur chrome browser
 #click on extension symbol 
