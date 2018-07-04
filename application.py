@@ -24,9 +24,9 @@ def updatecsv():
     print(data)
     data['insertime']=datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     bool=False
-    if os.path.exists(os.getcwd()+"/names.csv"):
+    if os.path.exists(os.getcwd()+"/currencydata.csv"):
         bool=True
-    with open('names.csv', 'a', newline='') as csvfile:
+    with open('currencydata.csv', 'a', newline='') as csvfile:
         fieldnames = ['currencyinfo', 'timeinfo',"insertime"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         if not bool:
