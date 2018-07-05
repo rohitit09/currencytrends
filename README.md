@@ -22,6 +22,6 @@
 > **start jupyter lab by below command**
 > > **$jupyter lab**
 
-#In jupyter excute 
+#In jupyter execute 
 > **draw.ipynb**
 
